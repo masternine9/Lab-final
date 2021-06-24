@@ -53,7 +53,7 @@ mongoose.connect('mongodb+srv://ahadali:AhadAli1234@cluster0.uxih1.mongodb.net/m
   useUnifiedTopology: true 
 }
 ).then(()=>{
-  console.log('Connected');
+  console.log('Connected to db');
 })
 .catch(err=>{
   // console.log(err.message);
